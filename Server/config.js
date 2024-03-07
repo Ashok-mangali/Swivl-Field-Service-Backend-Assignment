@@ -1,7 +1,7 @@
 // config.js
 const config = {
     development: {
-      mongodbUri: process.env.MONGODB_URI || 'mongodb://localhost:27017/model_data'
+      mongodbUri: process.env.MONGODB_URI || 'mongodb://localhost:3000/model_data'
     },
     production: {
       mongodbUri: process.env.MONGODB_URI
